@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    public float speed = 12f;
+    public float speed = 8f;
     private Rigidbody2D rb;
 
     void Start()
