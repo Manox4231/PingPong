@@ -1,0 +1,189 @@
+warning: in the working copy of 'Assets/Scenes/SampleScene.unity', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/Assets/Scenes/SampleScene.unity b/Assets/Scenes/SampleScene.unity[m
+[1mindex 451deab..a1577a7 100644[m
+[1m--- a/Assets/Scenes/SampleScene.unity[m
+[1m+++ b/Assets/Scenes/SampleScene.unity[m
+[36m@@ -119,6 +119,175 @@[m [mNavMeshSettings:[m
+     debug:[m
+       m_Flags: 0[m
+   m_NavMeshData: {fileID: 0}[m
+[32m+[m[32m--- !u!1 &65899810[m
+[32m+[m[32mGameObject:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  serializedVersion: 6[m
+[32m+[m[32m  m_Component:[m
+[32m+[m[32m  - component: {fileID: 65899815}[m
+[32m+[m[32m  - component: {fileID: 65899814}[m
+[32m+[m[32m  - component: {fileID: 65899813}[m
+[32m+[m[32m  - component: {fileID: 65899812}[m
+[32m+[m[32m  - component: {fileID: 65899811}[m
+[32m+[m[32m  m_Layer: 0[m
+[32m+[m[32m  m_Name: Ball (1)[m
+[32m+[m[32m  m_TagString: Untagged[m
+[32m+[m[32m  m_Icon: {fileID: 0}[m
+[32m+[m[32m  m_NavMeshLayer: 0[m
+[32m+[m[32m  m_StaticEditorFlags: 0[m
+[32m+[m[32m  m_IsActive: 1[m
+[32m+[m[32m--- !u!114 &65899811[m
+[32m+[m[32mMonoBehaviour:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 65899810}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_EditorHideFlags: 0[m
+[32m+[m[32m  m_Script: {fileID: 11500000, guid: cea475a8c61295141b6087f6ad79a1c1, type: 3}[m
+[32m+[m[32m  m_Name:[m[41m [m
+[32m+[m[32m  m_EditorClassIdentifier: '::'[m
+[32m+[m[32m  speed: 8[m
+[32m+[m[32m--- !u!58 &65899812[m
+[32m+[m[32mCircleCollider2D:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 65899810}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  serializedVersion: 3[m
+[32m+[m[32m  m_Density: 1[m
+[32m+[m[32m  m_Material: {fileID: 6200000, guid: 912732d1a2fec3d4480699419da5fec5, type: 2}[m
+[32m+[m[32m  m_IncludeLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 0[m
+[32m+[m[32m  m_ExcludeLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 0[m
+[32m+[m[32m  m_LayerOverridePriority: 0[m
+[32m+[m[32m  m_ForceSendLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 4294967295[m
+[32m+[m[32m  m_ForceReceiveLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 4294967295[m
+[32m+[m[32m  m_ContactCaptureLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 4294967295[m
+[32m+[m[32m  m_CallbackLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 4294967295[m
+[32m+[m[32m  m_IsTrigger: 0[m
+[32m+[m[32m  m_UsedByEffector: 0[m
+[32m+[m[32m  m_CompositeOperation: 0[m
+[32m+[m[32m  m_CompositeOrder: 0[m
+[32m+[m[32m  m_Offset: {x: 0, y: 0}[m
+[32m+[m[32m  m_Radius: 0.5[m
+[32m+[m[32m--- !u!50 &65899813[m
+[32m+[m[32mRigidbody2D:[m
+[32m+[m[32m  serializedVersion: 5[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 65899810}[m
+[32m+[m[32m  m_BodyType: 0[m
+[32m+[m[32m  m_Simulated: 1[m
+[32m+[m[32m  m_UseFullKinematicContacts: 0[m
+[32m+[m[32m  m_UseAutoMass: 0[m
+[32m+[m[32m  m_Mass: 1[m
+[32m+[m[32m  m_LinearDamping: 0[m
+[32m+[m[32m  m_AngularDamping: 0.05[m
+[32m+[m[32m  m_GravityScale: 0[m
+[32m+[m[32m  m_Material: {fileID: 0}[m
+[32m+[m[32m  m_IncludeLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 0[m
+[32m+[m[32m  m_ExcludeLayers:[m
+[32m+[m[32m    serializedVersion: 2[m
+[32m+[m[32m    m_Bits: 0[m
+[32m+[m[32m  m_Interpolate: 0[m
+[32m+[m[32m  m_SleepingMode: 1[m
+[32m+[m[32m  m_CollisionDetection: 1[m
+[32m+[m[32m  m_Constraints: 0[m
+[32m+[m[32m--- !u!212 &65899814[m
+[32m+[m[32mSpriteRenderer:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 65899810}[m
+[32m+[m[32m  m_Enabled: 1[m
+[32m+[m[32m  m_CastShadows: 0[m
+[32m+[m[32m  m_ReceiveShadows: 0[m
+[32m+[m[32m  m_DynamicOccludee: 1[m
+[32m+[m[32m  m_StaticShadowCaster: 0[m
+[32m+[m[32m  m_MotionVectors: 1[m
+[32m+[m[32m  m_LightProbeUsage: 1[m
+[32m+[m[32m  m_ReflectionProbeUsage: 1[m
+[32m+[m[32m  m_RayTracingMode: 0[m
+[32m+[m[32m  m_RayTraceProcedural: 0[m
+[32m+[m[32m  m_RayTracingAccelStructBuildFlagsOverride: 0[m
+[32m+[m[32m  m_RayTracingAccelStructBuildFlags: 1[m
+[32m+[m[32m  m_SmallMeshCulling: 1[m
+[32m+[m[32m  m_ForceMeshLod: -1[m
+[32m+[m[32m  m_MeshLodSelectionBias: 0[m
+[32m+[m[32m  m_RenderingLayerMask: 1[m
+[32m+[m[32m  m_RendererPriority: 0[m
+[32m+[m[32m  m_Materials:[m
+[32m+[m[32m  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}[m
+[32m+[m[32m  m_StaticBatchInfo:[m
+[32m+[m[32m    firstSubMesh: 0[m
+[32m+[m[32m    subMeshCount: 0[m
+[32m+[m[32m  m_StaticBatchRoot: {fileID: 0}[m
+[32m+[m[32m  m_ProbeAnchor: {fileID: 0}[m
+[32m+[m[32m  m_LightProbeVolumeOverride: {fileID: 0}[m
+[32m+[m[32m  m_ScaleInLightmap: 1[m
+[32m+[m[32m  m_ReceiveGI: 1[m
+[32m+[m[32m  m_PreserveUVs: 0[m
+[32m+[m[32m  m_IgnoreNormalsForChartDetection: 0[m
+[32m+[m[32m  m_ImportantGI: 0[m
+[32m+[m[32m  m_StitchLightmapSeams: 1[m
+[32m+[m[32m  m_SelectedEditorRenderState: 0[m
+[32m+[m[32m  m_MinimumChartSize: 4[m
+[32m+[m[32m  m_AutoUVMaxDistance: 0.5[m
+[32m+[m[32m  m_AutoUVMaxAngle: 89[m
+[32m+[m[32m  m_LightmapParameters: {fileID: 0}[m
+[32m+[m[32m  m_GlobalIlluminationMeshLod: 0[m
+[32m+[m[32m  m_SortingLayerID: 0[m
+[32m+[m[32m  m_SortingLayer: 0[m
+[32m+[m[32m  m_SortingOrder: 0[m
+[32m+[m[32m  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}[m
+[32m+[m[32m  m_Color: {r: 1, g: 1, b: 1, a: 1}[m
+[32m+[m[32m  m_FlipX: 0[m
+[32m+[m[32m  m_FlipY: 0[m
+[32m+[m[32m  m_DrawMode: 0[m
+[32m+[m[32m  m_Size: {x: 1, y: 1}[m
+[32m+[m[32m  m_AdaptiveModeThreshold: 0.5[m
+[32m+[m[32m  m_SpriteTileMode: 0[m
+[32m+[m[32m  m_WasSpriteAssigned: 1[m
+[32m+[m[32m  m_MaskInteraction: 0[m
+[32m+[m[32m  m_SpriteSortPoint: 0[m
+[32m+[m[32m--- !u!4 &65899815[m
+[32m+[m[32mTransform:[m
+[32m+[m[32m  m_ObjectHideFlags: 0[m
+[32m+[m[32m  m_CorrespondingSourceObject: {fileID: 0}[m
+[32m+[m[32m  m_PrefabInstance: {fileID: 0}[m
+[32m+[m[32m  m_PrefabAsset: {fileID: 0}[m
+[32m+[m[32m  m_GameObject: {fileID: 65899810}[m
+[32m+[m[32m  serializedVersion: 2[m
+[32m+[m[32m  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}[m
+[32m+[m[32m  m_LocalPosition: {x: 0, y: 0, z: 0}[m
+[32m+[m[32m  m_LocalScale: {x: 1, y: 1, z: 1}[m
+[32m+[m[32m  m_ConstrainProportionsScale: 0[m
+[32m+[m[32m  m_Children: [][m
+[32m+[m[32m  m_Father: {fileID: 0}[m
+[32m+[m[32m  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}[m
+ --- !u!1 &266918366[m
+ GameObject:[m
+   m_ObjectHideFlags: 0[m
+[36m@@ -1152,6 +1321,7 @@[m [mSceneRoots:[m
+   - {fileID: 519420032}[m
+   - {fileID: 619394802}[m
+   - {fileID: 1323473031}[m
+[32m+[m[32m  - {fileID: 65899815}[m
+   - {fileID: 1600070170}[m
+   - {fileID: 1154507419}[m
+   - {fileID: 1791930147}[m

@@ -1,0 +1,48 @@
+[1mdiff --git a/Assets/Ball.cs b/Assets/Ball.cs[m
+[1mdeleted file mode 100644[m
+[1mindex 9ad7e5e..0000000[m
+[1m--- a/Assets/Ball.cs[m
+[1m+++ /dev/null[m
+[36m@@ -1,32 +0,0 @@[m
+[31m-using UnityEngine;[m
+[31m-[m
+[31m-public class Ball : MonoBehaviour[m
+[31m-{[m
+[31m-    public float speed = 10f;[m
+[31m-    private Rigidbody2D rb;[m
+[31m-[m
+[31m-    void Start()[m
+[31m-    {[m
+[31m-        rb = GetComponent<Rigidbody2D>();[m
+[31m-        Launch();[m
+[31m-    }[m
+[31m-[m
+[31m-    void Launch()[m
+[31m-    {[m
+[31m-        float x = Random.value < 0.5f ? -1 : 1;[m
+[31m-        float y = Random.Range(-0.5f, 0.5f);[m
+[31m-[m
+[31m-        Vector2 dir = new Vector2(x, y).normalized;[m
+[31m-        rb.linearVelocity = dir * speed;[m
+[31m-    }[m
+[31m-[m
+[31m-    void Update()[m
+[31m-    {[m
+[31m-        if (Mathf.Abs(transform.position.x) > 10f)[m
+[31m-        {[m
+[31m-            transform.position = Vector2.zero;[m
+[31m-            Launch();[m
+[31m-        }[m
+[31m-    }[m
+[31m-[m
+[31m-}[m
+\ No newline at end of file[m
+[1mdiff --git a/Assets/Ball.cs.meta b/Assets/Ball.cs.meta[m
+[1mdeleted file mode 100644[m
+[1mindex 5b7156a..0000000[m
+[1m--- a/Assets/Ball.cs.meta[m
+[1m+++ /dev/null[m
+[36m@@ -1,2 +0,0 @@[m
+[31m-fileFormatVersion: 2[m
+[31m-guid: cea475a8c61295141b6087f6ad79a1c1[m
+\ No newline at end of file[m
